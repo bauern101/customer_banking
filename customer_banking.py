@@ -36,6 +36,7 @@ def main():
     cd_balance = float(input("What is your present CD balance?   ")) 
     cd_interest = float(input("What interest rate would you like you CD calculated with?   "))
     cd_maturity = int(input("How many months would you like the analysis preformed for?   "))
+    # The user is prompted to set the savings balance, interest rate, and months for the CD account. --------------------> (8 points)
 
     # Call the create_cd_account function and pass the variables from the user.
     updated_cd_balance, interest_earned = create_cd_account(cd_balance, cd_interest, cd_maturity)
@@ -47,8 +48,12 @@ def main():
         f"with ${interest_earned:,.2f} in earned interest.\n")
     print("\nThank you for banking with AI Bootcame Savings & Loan Bank")
     print("We wish you many happy returns!\n\n")
+    #Code is written to print out the interest earned and updated CD account balance
+    # with interest earned for the given months. 
+    # The values are formatted to two decimal places and thousandths. --------------------------------------------------> (6 points)
 
 if __name__ == "__main__":
     # Call the main function.
 
     main()
+    # The main function is called to run the program. ---------------------------------------------------> (2 points)
