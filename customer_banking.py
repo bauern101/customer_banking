@@ -10,7 +10,7 @@ def main():
     It displays the interest earned on the savings and CD accounts and updates the balances.
     """
     # Prompt the user to set the savings balance, interest rate, and months for the savings account.
-    print("Welcome to the AI Bootcame Savings & Loan Bank, where youcan truly 'Invest in your future'.")
+    print("Welcome to the AI Bootcame Savings & Loan Bank, where you can truly 'Invest in your future'.")
     print("Please provide your account information below.")
     savings_balance = float(input("What is your present saving balance?   ")) 
     savings_interest = float(input("What interest rate would you like calculated?   "))

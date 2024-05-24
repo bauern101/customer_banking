@@ -16,9 +16,13 @@ def create_savings_account(balance, interest_rate, months):
         float: The updated savings account balance after adding the interest earned.
         And returns the interest earned.
     """
+
     # Create an instance of the `Account` class and pass in the balance and interest parameters.
     #  Hint: You need to add the interest as a value, i.e, 0.
-    s_account = Account(balance, interest_rate)
+    #                     ↓↓↓ ------> Balance value holder // Balance exists now, so I can put it in.
+    s_account = Account(balance, 0)
+    #                           ↑↑↑ ---------> Incurred interest, starting at 0 here and over-written later because it does NOT exist yet
+    
     #In the create_savings_account function, an instance of the Account class is created
     #   and the balance and interest parameters are passed to the Account class. ------------------------------> (6 points)    
 
